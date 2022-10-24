@@ -1,0 +1,32 @@
+.gallery-container{
+    width: 980px;
+    height: min-content;
+    margin: 0 auto;
+
+    .galleryHeader{
+        margin-top: 65px;
+        width: 229px;
+        height: 40px;
+        border-bottom: solid black 2px;
+
+        p{
+            font-size: 25px;
+        }
+    }
+
+    .rowOne{
+        margin-top: 29px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .rowTwo{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

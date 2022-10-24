@@ -1,0 +1,144 @@
+.site-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 100%;
+    min-height: min-content;
+
+.backImg{
+    margin: 0 auto;
+    z-index: -1;
+    margin-top: -220px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/heroHome.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .imgText{
+        padding-top: 150px;
+        margin: 0 auto;
+        display: flex;
+        width: 35%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1{
+            font-size: 40px;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        h2{
+            font-size: 20px;
+            margin-bottom: 50px;
+            color: #EE4367;
+        }
+
+        p{
+            color: white;
+            margin-bottom: 50px;
+            width: 416px;
+        }
+    }
+}
+
+.quote{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 60%;
+    min-height: 180px;
+
+    p{
+        color: #FFD140;
+        font-size: 18px;
+    }
+
+    .author{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+
+        h1{
+            font-size: 16px;
+        }
+
+        h2{
+            font-size: 14px;
+        }
+    }
+    
+}
+
+.upcoming{
+    width: 100%;
+    height: 320px;
+    background-color: #540D6E;
+
+    h1{
+        margin-left: 40px;
+        margin-bottom: 37px;
+        color: white;
+        margin-top: 50px;
+        width: 392px;
+        height: 40px;
+        border-bottom: solid white 2px;
+        font-size: 25px;
+    }
+
+    .row{
+        display: flex;
+        width: 100%;
+        min-height: 150px;
+        justify-content: space-evenly;
+        .event{
+            display: flex;
+            width: 220px;
+            min-height: 150px;
+           
+        .left{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 20px;
+            width: 60px;
+            height: 60px;
+            background-color: #EE4367;
+
+            .date{
+                h3{
+                    font-size: 20px;
+                    color: white;
+                }
+                h4{
+                    font-size: 10px;
+                    color: white;
+                }
+            }
+        }
+        .right{
+            display: flex;
+            width: 75%;
+            flex-direction: column;
+
+            h2{
+                font-size: 13px;
+                padding-bottom: 20px;
+                color: white;
+            }
+
+            h3{
+                font-size: 13px;
+                color: #EE4367;
+            }
+        }
+    }
+
+}
+}
+}

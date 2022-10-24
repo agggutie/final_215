@@ -1,0 +1,170 @@
+.gallery-template-container{
+    width: 980px;
+    height: min-content;
+    margin: 0 auto;
+
+    .galHeroOne{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 980px;
+        height: 400px;
+        background-image: url(../images/galleryOne.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+       .geroText{
+        display: flex;
+
+        .num{
+            margin-right: 30px;
+            margin-top: 130px;
+            font-size: 300px;
+            height: 344px;
+            width: 216px;
+            padding-right: 30px;
+        }
+
+        .text{
+            margin-top: 275px;
+            font-size: 140px;
+            height: 161px;
+            width: max-content;
+        }
+       }
+    }
+
+    .galHeroTwo{
+        margin-right: 30px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 980px;
+        height: 400px;
+        background-image: url(../images/galleryTwo.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+       .geroText{
+        display: flex;
+
+        .num{
+            margin-top: 130px;
+            font-size: 300px;
+            height: 344px;
+            width: 216px;
+        }
+
+        .text{
+            margin-top: 275px;
+            font-size: 140px;
+            height: 161px;
+            width: max-content;
+        }
+       }
+    }
+
+    .galHeroThree{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 980px;
+        height: 400px;
+        background-image: url(../images/galleryThree.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+       .geroText{
+        display: flex;
+
+        .num{
+            margin-right: 30px;
+            margin-top: 130px;
+            font-size: 300px;
+            height: 344px;
+            width: 216px;
+        }
+
+        .text{
+            margin-top: 275px;
+            font-size: 140px;
+            height: 161px;
+            width: max-content;
+        }
+       }
+    }
+
+    .galHeroFour{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 980px;
+        height: 400px;
+        background-image: url(../images/galleryFour.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+       .geroText{
+        display: flex;
+
+        .num{
+            margin-right: 30px;
+            margin-top: 130px;
+            font-size: 300px;
+            height: 344px;
+            width: 216px;
+        }
+
+        .text{
+            margin-top: 295px;
+            font-size: 115px;
+            height: 161px;
+            width: max-content;
+        }
+       }
+    }
+
+
+    .galHeroFive{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 980px;
+        height: 400px;
+        background-image: url(../images/galleryFive.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+       .geroText{
+        display: flex;
+
+        .num{
+            margin-right: 30px;
+            margin-top: 130px;
+            font-size: 300px;
+            height: 344px;
+            width: 216px;
+        }
+
+        .text{
+            margin-top: 295px;
+            font-size: 115px;
+            height: 161px;
+            width: max-content;
+        }
+       }
+    }
+    .galleryText{
+        margin-bottom: 63px;
+        display: flex;
+        justify-content: space-between;
+
+        .left{
+            width: 48%;
+        }
+
+        .right{
+            width: 48%;
+        }
+    }
+}

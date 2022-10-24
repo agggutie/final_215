@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 980px;
+    height: 90px;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+    z-index: 2;
+
+    .navLeft{
+        width: 60%;
+        height: min-content;
+    }
+
+    .navRight{
+        display: flex;
+        justify-content: space-evenly;
+        width: 40%;
+        min-height: min-content;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
